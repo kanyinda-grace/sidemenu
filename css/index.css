@@ -163,3 +163,22 @@ margin-bottom: 150px;
    visibility: visible;
 }
 }
+
+@media screen and (max-width: 360px){
+  
+    
+.section{
+ background-size: cover;
+  background-position:  center;
+  height: 100vh;
+  background-image: url("../image/bible.jpg");
+}
+.section-middle {
+bottom: 150px;
+position: relative;
+}
+.btn{
+  margin-left: 10px;
+}
+
+}
