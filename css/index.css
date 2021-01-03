@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  position: fixed;
 }
 .logo{
   font-size: 30px;
@@ -170,8 +171,9 @@ margin-bottom: 150px;
 .section{
  background-size: cover;
   background-position:  center;
-  height: 100vh;
+  height: 100;
   background-image: url("../image/bible.jpg");
+   position: fixed;
 }
 .section-middle {
 bottom: 150px;
@@ -195,7 +197,8 @@ position: relative;
   text-align: center;
   margin-top: 210px;
   color: #fff;
-  font-size: 20px;
+  font-size: 20px; 
 
 }
+
 }
